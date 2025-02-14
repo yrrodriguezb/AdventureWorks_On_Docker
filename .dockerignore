@@ -1,0 +1,23 @@
+# .dockerignore
+
+# Ignorar archivos de control de versiones
+.git
+.gitignore
+
+# Ignorar archivos de configuración específicos del entorno
+.env
+
+# Ignorar archivos y directorios generados por Docker
+docker-compose.yml
+docker-compose.override.yml
+*.log
+*.tmp
+
+# Ignorar archivos y directorios específicos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Ignorar archivos y directorios de IDEs
+.vscode/
+.idea/
+*.swp
